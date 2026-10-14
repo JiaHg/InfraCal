@@ -1,0 +1,12 @@
+{
+  "name": "infra-cal",
+  "version": "1.0.0",
+  "description": "LLM inference deployment calculator for vLLM: memory feasibility, multi-node parallel plan search, roofline estimates, traceable math.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/",
+    "serve": "python3 -m http.server 8080"
+  },
+  "license": "MIT"
+}
